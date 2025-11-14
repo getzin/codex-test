@@ -1,0 +1,15 @@
+[project]
+name = "four-d-chess"
+version = "0.1.0"
+description = "A playful 4D chess engine with cat and alien pieces"
+authors = [{name = "OpenAI Codex"}]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+four-d-chess = "src.main:run_cli"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
