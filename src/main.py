@@ -1,3 +1,7 @@
+###########################
+## python -m day05.src.main
+###########################
+
 """Command line interface for the 4D Chess game."""
 
 from __future__ import annotations
